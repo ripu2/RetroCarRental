@@ -1,11 +1,13 @@
 import React from "react";
 import ReactDom from "react-dom";
 import "./Styles/index.scss";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Navbar from "./components/navBar";
 class App extends React.Component {
   render() {
     return (
       <>
-        <h1>Hanhi</h1>
+        <Navbar />
         <h2>kyabhat</h2>
       </>
     );
