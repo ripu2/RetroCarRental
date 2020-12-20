@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+$transparent: rgba(0, 0, 0, 0.4);
+
+.navbar {
+  background: $transparent;
+  height: 4em;
+}
+.navbar-brand {
+  font-family: "Dancing Script", cursive;
+}
