@@ -11,21 +11,21 @@ class Box extends React.Component {
         <Carousel.Item interval={1000}>
           <img className="d-block w-100" src={car} alt="First slide" />
           <Carousel.Caption>
-            <h3></h3>
+            <h3>Mercedes Royale</h3>
             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item interval={500}>
           <img className="d-block w-100" src={car1} alt="Third slide" />
           <Carousel.Caption>
-            <h3>Second slide label</h3>
+            <h3>Mercedes Benz 1956</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img className="d-block w-100" src={car2} alt="Third slide" />
           <Carousel.Caption>
-            <h3>Mercedes Benz</h3>
+            <h3>Mercedes Benz 1946</h3>
             <p>
               Praesent commodo cursus magna, vel scelerisque nisl consectetur.
             </p>
