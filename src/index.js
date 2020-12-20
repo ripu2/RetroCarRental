@@ -3,12 +3,13 @@ import ReactDom from "react-dom";
 import "./Styles/index.scss";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from "./components/navBar";
+import Box from "./components/box";
 class App extends React.Component {
   render() {
     return (
       <>
         <Navbar />
-        <h2>kyabhat</h2>
+        <Box />
       </>
     );
   }
