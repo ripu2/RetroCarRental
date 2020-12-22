@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Assistant:wght@200;300&family=Barlow+Condensed:wght@300&family=Caveat&family=Dancing+Script&display=swap");
 ul {
   color: whitesmoke !important;
 }
@@ -76,6 +77,7 @@ span a {
 }
 span a:hover {
   text-decoration: none;
+  font-family: "Assistant", sans-serif !important;
 }
 span i {
   color: #fc8621;
