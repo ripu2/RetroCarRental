@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&family=Caveat&family=Dancing+Script&display=swap");
 .firstBox {
   margin-top: 1em;
   height: 500% !important;
@@ -6,4 +7,57 @@
   background-position: center;
   background-attachment: fixed;
   width: 100%;
+}
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+.carousel-indicators {
+  bottom: -10px;
+}
+.priceCards {
+  padding: 3em;
+  display: inline !important;
+}
+.pricingTag {
+  margin-top: 1em !important;
+  color: whitesmoke !important;
+  //font-family: "Caveat", cursive;
+  font-family: "Dancing Script", cursive;
+}
+.card {
+  background: #393e46 !important;
+  width: 20em !important;
+  border-top: 0.25em solid !important;
+  border-image: linear-gradient(to left, #743ad5, #df3a9d) 1 !important;
+  margin: 4em 5em 0 0 !important;
+  box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.4),
+    0px 18px 23px rgba(0, 0, 0, 0.4) !important;
+}
+.card .description h3 {
+  line-height: 2em;
+}
+
+h1 {
+  font-family: "Barlow Condensed", sans-serif;
+  text-align: center !important;
+}
+.card h3 {
+  font-family: "Barlow Condensed", sans-serif;
+  text-align: start !important;
+}
+small {
+  text-align: end !important;
+  font-family: "Barlow Condensed", sans-serif;
+}
+.meta {
+  display: none;
+}
+.header,
+.meta,
+.description {
+  color: whitesmoke !important;
+  font-family: "Dancing Script", cursive !important;
+  font-weight: 100 !important;
 }
