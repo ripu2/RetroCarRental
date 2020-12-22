@@ -16,29 +16,40 @@ class Documentation extends React.Component {
                 </div>
                 <div className="about">
                   <h4>About us</h4>
-                  <p>A gesture of goodwill towards are rich history of cars</p>
+                  <p>A gesture of goodwill towards are rich history of cars.</p>
                 </div>
-                <div className="Contact Us">
+                <div className="ContactUs">
                   <h4> Contact Us</h4>
-                  <span></span>
+
+                  <span>
+                    <i class="phone icon"></i>
+                    +918959642452
+                  </span>
+                  <br></br>
+                  <span>
+                    <i class="envelope open outline icon"></i>
+                    abccars@rental.com
+                  </span>
                 </div>
               </div>
               <div class="four wide column">
-                <h4>Information</h4>
+                <h4 className="info">Information</h4>
                 <span>
-                  About Us <br></br>
-                  More Search <br></br>
-                  Testonmials <br></br>
-                  Events
+                  <a href="#">About Us</a> <br></br>
+                  <a href="#">More Search</a> <br></br>
+                  <a href="#">Testonomials</a>
+                  <br></br>
+                  <a href="#">Events</a>
                 </span>
               </div>
               <div class="four wide column">
-                <h4>Helpfull Links</h4>
+                <h4 className="helfulLink">Helpfull Links</h4>
                 <span>
-                  Services <br></br>
-                  Support <br></br>
-                  Terms and condition <br></br>
-                  Privacy Policy
+                  <a href="#Services">Services</a> <br></br>
+                  <a href="#">Support</a> <br></br>
+                  <a href="#">Terms and condition </a>
+                  <br></br>
+                  <a href="#">Privacy Policy</a>
                 </span>
               </div>
               <div className="four wide column">
@@ -56,10 +67,10 @@ class Documentation extends React.Component {
           <Container>
             <Row>
               <Col md={{ span: 3, offset: 3 }}>
-                <i class="facebook f icon"></i>
-                <i class="google plus g icon"></i>
-                <i class="twitter icon"></i>
-                <i class="instagram icon"></i>
+                <i class="facebook f icon btn fb-btn big" id="fb"></i>
+                <i class="google plus g icon btn g-btn big" id="gp"></i>
+                <i class="twitter icon btn tw-btn big" id="tw"></i>
+                <i class="instagram icon btn ig-btn big" id="ig"></i>
               </Col>
             </Row>
           </Container>
