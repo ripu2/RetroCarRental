@@ -2,8 +2,12 @@
 $transparent: rgba(0, 0, 0, 0.4);
 
 .navbar {
-  background: $transparent;
+  background: black;
   height: 4em;
+}
+.navbar-brand,
+.nav-link {
+  color: wheat !important;
 }
 .navbar-brand {
   font-family: "Dancing Script", cursive;

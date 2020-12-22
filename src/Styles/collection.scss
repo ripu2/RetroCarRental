@@ -1,0 +1,21 @@
+.collection {
+  background: whitesmoke !important;
+  width: 20em !important;
+  color: black;
+  border-top: 0.25em solid !important;
+  margin: 4em 5em 0 0 !important;
+  box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.4),
+    0px 18px 23px rgba(0, 0, 0, 0.4) !important;
+  margin-bottom: 3em !important;
+}
+.collection .content,
+.header,
+.meta,
+.description,
+.extra {
+  color: black !important;
+}
+
+.collection img {
+  height: 15em !important;
+}
