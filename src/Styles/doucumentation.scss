@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Assistant:wght@200;300&family=Barlow+Condensed:wght@300&family=Caveat&family=Dancing+Script&display=swap");
 ul {
   color: whitesmoke !important;
 }
@@ -6,14 +7,43 @@ ul {
   margin-top: 3em;
   background-color: black;
 }
+.contain h3 {
+  color: whitesmoke;
+  margin-bottom: 1em;
+}
 .contain h4 {
   color: #fc8621 !important;
 }
 .about p {
   color: whitesmoke;
+  line-height: 1.5em !important;
+  text-align: justify;
 }
+.btn {
+  //margin-top: -3em !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 2em;
+  margin-right: 3em;
+  cursor: pointer;
+  transition: all 0.3s;
+  border-radius: 10px;
+}
+
 .button {
+  text-decoration: none;
+  background: rgb(145, 92, 182);
+  padding: 15px 40px;
+  border-radius: 4px;
+  font-weight: normal;
+  text-transform: uppercase;
+  transition: all 0.2s ease-in-out;
   background-color: #fc8621 !important;
+}
+.button:hover {
+  color: rgba(255, 255, 255, 1) !important;
+  box-shadow: 0 5px 15px rgba(145, 92, 182, 0.4) !important;
 }
 hr {
   border: 0.1px solid white !important;
@@ -26,13 +56,69 @@ hr {
 .col-md-3 {
   margin: 2em auto 2em auto !important;
 }
-i {
-  padding-top: 3px;
-  padding-left: 1px;
-  //padding-right: 1em !important;
-  background-color: #fc8621;
-  height: 25px !important;
-  width: 25px !important;
-  border-radius: 50%;
-  margin-right: 2em !important;
+.about {
+  margin-top: 2em !important;
+}
+.ContactUs {
+  margin-top: 2em !important;
+  margin-bottom: 1em !important;
+}
+.info,
+.helfulLink,
+.form {
+  margin-top: 3em !important;
+  line-height: 1.6em !important;
+}
+span {
+  color: whitesmoke;
+}
+span a {
+  color: whitesmoke;
+}
+span a:hover {
+  text-decoration: none;
+  font-family: "Assistant", sans-serif !important;
+}
+span i {
+  color: #fc8621;
+  margin-right: 3em !important;
+}
+.btn.fb-btn {
+  box-shadow: 0 20px 20px -17px rgba(0, 111, 255, 0.53);
+}
+.btn.fb-btn:hover {
+  transform: scale(1.2);
+  box-shadow: 0 30px 45px -15px rgba(0, 111, 255, 0.65);
+}
+.btn.g-btn:hover {
+  transform: scale(1.2);
+  box-shadow: 0 30px 45px -15px #ec5858;
+}
+.btn.tw-btn:hover {
+  transform: scale(1.2);
+  box-shadow: 0 30px 45px -15px rgba(0, 111, 255, 0.65);
+}
+.btn.ig-btn:hover {
+  transform: scale(1.2);
+  box-shadow: 0 30px 45px -15px #fe7171;
+}
+#fb {
+  color: #006fff;
+  text-shadow: 0 0 30px #006fff;
+  margin-right: 0.5em !important;
+}
+#gp {
+  color: #ec5858;
+  text-shadow: #ec5858;
+  margin-right: 0.5em !important;
+}
+#tw {
+  color: #51adcf;
+  text-shadow: #51adcf;
+  margin-right: 0.5em !important;
+}
+#ig {
+  color: #fe7171;
+  text-shadow: #fe7171;
+  margin-right: 0.5em !important;
 }
